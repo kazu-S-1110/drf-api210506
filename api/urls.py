@@ -9,6 +9,6 @@ router.register("users", UserViewSet)
 
 urlpatterns = [
     path('myself/', ManageUserView.as_view(), name="myself"),
-    path("", include(routers.urls)),
+    path("", include(router.urls)),
 ]
 
