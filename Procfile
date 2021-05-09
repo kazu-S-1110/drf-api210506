@@ -1,1 +1,1 @@
-web: drf-api210506
+web: gunicorn rest_api.wsgi --log-file -
