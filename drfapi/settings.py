@@ -27,7 +27,7 @@ DEBUG = True
 
 
 
-ALLOWED_HOSTS = ["https://drf-api210509.herokuapp.com"]
+ALLOWED_HOSTS = ["drf-api210509.herokuapp.com"]
 
 
 # Application definition
